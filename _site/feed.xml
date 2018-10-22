@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2018-10-19T09:24:07+03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Ruby on Rails Software developement &amp;amp; consultancy | Zege Technologies</title><subtitle>FULLSTACK SOFTWARE DEVELOPMENT CONSULTANCY DEVELOP AMAZING PRODUCTS. FAST unlock your business technology potential
+</subtitle><entry><title type="html">Kenya Stack Off developer survey results</title><link href="http://localhost:4000/news/2017/03/11/developer-stack-report-out.html" rel="alternate" type="text/html" title="Kenya Stack Off developer survey results" /><published>2017-03-11T01:16:01+03:00</published><updated>2017-03-11T01:16:01+03:00</updated><id>http://localhost:4000/news/2017/03/11/developer-stack-report-out</id><content type="html" xml:base="http://localhost:4000/news/2017/03/11/developer-stack-report-out.html">&lt;p class=&quot;post-figure&quot;&gt;&lt;img src=&quot;/assets/images/blog/stack-off/stack-off.jpg&quot; alt=&quot;image-title-here&quot; class=&quot;img-responsive center&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We are excited to present you with the first edition of Zegetech’s Stack Off Report. All the information you will find here is based on the data from the “&lt;a href=&quot;https://docs.google.com/forms/d/e/1FAIpQLSfFRuxdnXepeZMdNatfOSpkme72qaB0xapCAhxNJc-Yi__ovQ/closedform&quot;&gt;What’s your stack&lt;/a&gt;” study conducted by Zege Technologies where we engaged over 100 developers in Kenya. With “Stack Off”, a study was conducted among the developer community and Zegetech, aimed at shedding some light on the most important trends in software development and gain an insight into developers’ stack preferences.&lt;/p&gt;
+
+&lt;p&gt;We asked developers which area of development they are most comfortable with, which languages they use on a daily basis, what tools they use in building their application and more
+Developers also revealed where they store their code, what types of infrastructure they prefer and where they keep their servers. Finally, we asked devs how long they have been coding, how many live apps they have and how they would like to interact with each other. &lt;a href=&quot;http://bit.ly/2myyOLQ&quot;&gt;Download the report here&lt;/a&gt;. Here’s what we found out.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/blog/stack-off/designer-developer.jpg&quot; alt=&quot;image-title-here&quot; class=&quot;img-responsive center&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;all-tools-are-made-equal-but-some-are-more-equal-than-others&quot;&gt;All Tools are made equal? But some are more equal than others&lt;/h1&gt;
+&lt;p&gt;It goes without saying that one of the biggest time hogs for new developers starting out in their careers is choosing what tools and languages to work with. These decisions include what operating system to use when coding and with which language, where to deploy application as well as which version control system to choose. The list is endless.
+Fortunately, there is a solid baseline that we discovered where most developers lie, as a subset of some common tools. This makes starting out for new developers much easier and helps accelerate progression in the developer community in Kenya. 96% of developer use &lt;a href=&quot;https://git-scm.com/&quot;&gt;git&lt;/a&gt; as their version control system. The minority contenders were &lt;a href=&quot;https://subversion.apache.org/&quot;&gt;SVN&lt;/a&gt; and &lt;a href=&quot;https://www.mercurial-scm.org/&quot;&gt;mercurial&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/blog/stack-off/chart-1.png&quot; alt=&quot;image-title-here&quot; class=&quot;img-responsive center&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;operating-systems-use&quot;&gt;Operating systems use&lt;/h3&gt;
+&lt;p&gt;Choice of operating system for developers was evenly split between Apple, Windows and Linux. However, Microsoft .net developers were exclusively on windows platform for obvious reasons, whereas windows did not feature among ruby and python developers, most  preferring Mac and Linux. Php, Java and Node developers were evenly spread across operating systems. However for live applications, it was 73% linux and 24% windows
+&lt;img src=&quot;/assets/images/blog/stack-off/chart-os-1.png&quot; alt=&quot;image-title-here&quot; class=&quot;img-responsive center&quot; /&gt;
+&lt;img src=&quot;/assets/images/blog/stack-off/chart-os-2.png&quot; alt=&quot;image-title-here&quot; class=&quot;img-responsive center&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;backend-developers-rule-and-girls-bring-the-sparkle&quot;&gt;Backend Developers rule and girls bring the sparkle.&lt;/h1&gt;
+&lt;p&gt;It emerged from the developer distribution that backend skills featured 3 times as much as mobile skills and 16% more than frontend skills. Analytics and data science being a new thing in Kenya featured the least number of developers. 20% of developers were fullstack developers, having selected all battlegrounds, that is frontend, backend, mobile and analytics.
+&lt;img src=&quot;/assets/images/blog/stack-off/chart-2.png&quot; alt=&quot;image-title-here&quot; class=&quot;img-responsive center&quot; /&gt;
+Male developers were dominant at 74% with female developers accounting for 19%. Female developers were 90% more likely to be Frontend developers, while male developers were pretty much evenly distributed across frontend, backend, mobile and data.&lt;/p&gt;
+
+&lt;p&gt;The most popular tools, libraries and frameworks for frontend developers were Bootstrap, Jquery and Angular. It was noted that a large number of developers have not explored the SPA (single page applications) trend in creating web 2.0 interactive applications
+&lt;img src=&quot;/assets/images/blog/stack-off/chart-3.png&quot; alt=&quot;image-title-here&quot; class=&quot;img-responsive center&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The most popular tools for backend developers were MySQL, PostgreSQL, MongoDB, PHP and Laravel. The race was close however with other tools featuring prominently such as Redis, Python, Ruby, Java, Django and Ruby on Rails.
+&lt;img src=&quot;/assets/images/blog/stack-off/chart-4.png&quot; alt=&quot;image-title-here&quot; class=&quot;img-responsive center&quot; /&gt;
+&lt;img src=&quot;/assets/images/blog/stack-off/chart-5.png&quot; alt=&quot;image-title-here&quot; class=&quot;img-responsive center&quot; /&gt;
+&lt;img src=&quot;/assets/images/blog/stack-off/chart-6.png&quot; alt=&quot;image-title-here&quot; class=&quot;img-responsive center&quot; /&gt;
+&lt;img src=&quot;/assets/images/blog/stack-off/chart-7.png&quot; alt=&quot;image-title-here&quot; class=&quot;img-responsive center&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;android-the-43rd-native-tribe-of-kenya-tyranny-of-numbers&quot;&gt;Android. The 43rd native tribe of Kenya; tyranny of numbers&lt;/h1&gt;
+&lt;p&gt;It is no surprise that the Android mobile platform dominates mobile apps in Africa. However surprisingly, 65% of android developers in Kenya preferred building native apps as opposed to hybrid ones. Suffice it to say &lt;a href=&quot;https://en.wikipedia.org/wiki/Java_Platform,_Micro_Edition&quot;&gt;J2 the ME&lt;/a&gt; is #DEAD among developers and IoS native application development is almost non existent at 1.1%. USSD was prefered among 3% of developers building for feature phones. Google analytics is still the king of analytics with other platforms such as mixpanel, heap and kissmetrics lagging far behind. Among the 31.5% of developers that preferred building hybrid apps, Ionic, React Native, Phonegap and Apache cordova emerged as favourites with the new kid on the block, Ionic, stirring up all the glamor and attracting the greatest interest.
+&lt;img src=&quot;/assets/images/blog/stack-off/chart-8.png&quot; alt=&quot;image-title-here&quot; class=&quot;img-responsive center&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;When it came to web, the most popular server was Apache, with Nginx coming in a close second, quite reflective of the global trend. However &lt;a href=&quot;https://www.nextplatform.com/2016/02/24/how-apache-is-losing-the-web-to-nginx/&quot;&gt;Nginx is gaining&lt;/a&gt; and &lt;a href=&quot;http://www.infoworld.com/article/2608377/open-source-software/nginx-passes-apache-as-web-server-of-choice-among-top-sites.html&quot;&gt;leads among top 1000 sites globally&lt;/a&gt;.
+&lt;img src=&quot;/assets/images/blog/stack-off/chart-10.png&quot; alt=&quot;image-title-here&quot; class=&quot;img-responsive center&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Where do developers choose to host their applications? Surprisingly, latency was not an issue. No local hosts featured in the list. Top providers were Heroku, Digital Ocean, AWS and Azure. Also present was GCE and RackSpace. 71% of devs prefered running their own VPS over Platforms as a Service.
+&lt;img src=&quot;/assets/images/blog/stack-off/chart-9.png&quot; alt=&quot;image-title-here&quot; class=&quot;img-responsive center&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;the-ultimate-stack-today-and-tomorrow&quot;&gt;The ultimate stack. Today and tomorrow&lt;/h1&gt;
+&lt;p&gt;The tech job market is shifting and moving rapidly. In Kenya today, the more marketable developer tools among large corporate companies are PHP, microsoft server, mysql and oracle. These tools have had years of maturing in the developer community and it seems that they are here to stay for just a while longer.
+However, the trends are shifting. 90% of tech startups and developers are building their technologies on new age languages that have popularised buzz words like &lt;a href=&quot;https://en.wikipedia.org/wiki/Minimum_viable_product&quot;&gt;MVP&lt;/a&gt;, agile and lean. These include startups, colleges and corporate breakaways. They use tools that are increasing in dominance such as Ruby, Node, Python, MongoDB, Redis and Angular. Interestingly, among the large web applications like Facebook, Kickstarter, Twitter, Airbnb, Foursquare, Stripe etc… more have been built on Ruby on Rails and Django than their leading PHP counterpart Laravel. Data science and big data is also growing as the world moves from a digital economy to an information economy, with R, Python and Scala leading the way as well as tools like hadoop and spark.&lt;/p&gt;
+
+&lt;p&gt;Then there are the unshakable technologies that have always been there and are not going anywhere. These are &lt;a href=&quot;https://en.wikipedia.org/wiki/Relational_database_management_system&quot;&gt;RDBMS’s&lt;/a&gt; like MySQL, PostgreSQL and Oracle that have long been used in all sorts of ways across the tech industry. ACID vs BASE has been the fight between SQL vs NoSQL with contenders like MongoDB, Cassandra and Redis. These promise scalability and speed for key/store and document type storage that will wet your appetite. But with PostgreSQL now supporting full text search and indices on NoSQL data type through the &lt;a href=&quot;https://www.compose.com/articles/is-postgresql-your-next-json-database/&quot;&gt;JSONB&lt;/a&gt; and HSTORE, is the fight over?&lt;/p&gt;
+
+&lt;p&gt;Lastly the trend in mobile development is shaping up. The fight for productivity was initiated by the hybrids such as Phonegap, and Cordova powered SDK’s in building mobile applications using HTML, CSS and JavaScript based on the mobile webview. These guaranteed rapid development and efficient workflows but with compromised speed. However, the growth of mobile device processing over the years have greatly minimised this disadvantage. The webview is faster many times over. However that notwithstanding, developers still want to build pure native applications that perform at the device’s optimum levels. This has ushered in new technologies that allow developers to use HTML, CSS and Javascript to build applications that compile directly to their native counterparts. Two such tools are Google backed &lt;a href=&quot;https://www.nativescript.org/&quot;&gt;NativeScript&lt;/a&gt; and Facebook backed &lt;a href=&quot;https://facebook.github.io/react-native/&quot;&gt;React Native&lt;/a&gt;, which are instigating a healthy &lt;a href=&quot;http://blog.backand.com/angular-2-nativescript-vs-react-native/&quot;&gt;mobile toolkit rivalry&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;All in all, the main focus for developers is productivity, speed, portability, write-once-deploy-everywhere, efficiency as well as community. Those are the key factors that influence the growth of any tool now and in the future.
+We are looking forward to seeing which tools get onto most developers stacks and how these tools will affect the growth of the software industry in Kenya.&lt;/p&gt;
+
+&lt;h3 class=&quot;center&quot; id=&quot;never-grows-old&quot;&gt;Never grows old&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/blog/stack-off/chart-11.png&quot; alt=&quot;image-title-here&quot; class=&quot;img-responsive center&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 class=&quot;center&quot; id=&quot;threatened-retirement&quot;&gt;Threatened retirement&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/blog/stack-off/chart-12.png&quot; alt=&quot;image-title-here&quot; class=&quot;img-responsive center&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 class=&quot;center&quot; id=&quot;new-kids-on-the-block&quot;&gt;New kids on the block&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/blog/stack-off/chart-13.png&quot; alt=&quot;image-title-here&quot; class=&quot;img-responsive center&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 class=&quot;center&quot; id=&quot;watch-keenly&quot;&gt;Watch keenly&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/blog/stack-off/chart-14.png&quot; alt=&quot;image-title-here&quot; class=&quot;img-responsive center&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;stack-off-the-contenders-formulae&quot;&gt;Stack off. The contenders formulae&lt;/h1&gt;
+&lt;p&gt;We summarised the stack responses here, narrowing down the choices. If you are new to development, then this is a sure way to get you on your path to knowledge and building your skills and hopefully amazing products. Sharpen your stack as an individual or team.
+The idea is to pick at least one cell in each row as you move through the various rows of the stack to build your full stack of tools.
+&lt;img src=&quot;/assets/images/blog/stack-off/chart-15.png&quot; alt=&quot;image-title-here&quot; class=&quot;img-responsive center&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Here is our stack at Zegetech. Also check out the detailed version at &lt;a href=&quot;https://stackshare.io/zege-technologies/zege-technologies&quot;&gt;https://stackshare.io/zege-technologies/zege-technologies&lt;/a&gt; 
+&lt;img src=&quot;/assets/images/blog/stack-off/chart-16.png&quot; alt=&quot;image-title-here&quot; class=&quot;img-responsive center&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;We are glad to have worked with the developer community to bring you this report. We hope that you found it interesting, enlightening and actionable. Did we leave out any of your favorite tools? The next edition is coming -  Stack Off 2017 where we hope to get even more insight from you and developers and designers in Kenya.&lt;/p&gt;
+
+&lt;p&gt;Until then, keep coding, innovating and believing that we the developers are the future of the region.
+Please feel free to connect with us on our website, email or linkedin page. We are always happy to work with like minded people in raising the standards for developers and software development in the region, whatever your stack, tools, processes or philosophies.&lt;/p&gt;
+
+&lt;h3 id=&quot;about-zege-technologies&quot;&gt;About Zege Technologies&lt;/h3&gt;
+
+&lt;blockquote class=&quot;custom-quote&quot; title=&quot;my title&quot; id=&quot;myid&quot;&gt;
+  &lt;p&gt;&lt;i class=&quot;fa fa-quote-left&quot;&gt;&lt;/i&gt; Zegetech is a Ruby on Rails full-stack web and mobile software development and consultancy company. We help organisations to take their ideas through an intricate process all through to launch. We use cutting edge technologies to build platforms and products that we are proud and excited about and that bring meaning to the world. We run the payment gateway &lt;a href=&quot;http://www.mpayer.co.ke/&quot;&gt;MPAYER&lt;/a&gt;, which processes mobile payments for businesses in Kenya.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;col-md-12 col-sm-12 col-xs-12&quot;&gt;
+	&lt;form action=&quot;//zegetech.us2.list-manage.com/subscribe/post?u=a7cf605f5aa796e33003ebb6f&amp;amp;id=6c09ac3877&quot; method=&quot;post&quot; id=&quot;mc-embedded-subscribe-form&quot; name=&quot;mc-embedded-subscribe-form&quot; class=&quot;validate&quot; target=&quot;_blank&quot; novalidate=&quot;&quot;&gt;
+		&lt;div class=&quot;form-group col-md-6 col-sm-6 col-xs-12&quot;&gt;
+			&lt;input type=&quot;email&quot; value=&quot;&quot; name=&quot;EMAIL&quot; class=&quot;form-control&quot; id=&quot;mce-EMAIL&quot; placeholder=&quot;Email address&quot; required=&quot;&quot; aria-required=&quot;true&quot; /&gt;
+		&lt;/div&gt;
+		&lt;!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--&gt;
+		&lt;div style=&quot;position: absolute; left: -5000px;&quot; aria-hidden=&quot;true&quot;&gt;&lt;input type=&quot;text&quot; name=&quot;b_a7cf605f5aa796e33003ebb6f_6c09ac3877&quot; tabindex=&quot;-1&quot; value=&quot;&quot; /&gt;&lt;/div&gt;
+		&lt;button type=&quot;submit&quot; class=&quot;btn btn-lg btn-cta-primary col-md-6 col-sm-6 col-xs-12&quot;&gt;Get Stack Off 2017&lt;/button&gt;
+	&lt;/form&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://bit.ly/2myyOLQ&quot;&gt;Download the report here&lt;/a&gt;. Feel free to contact us at &lt;a href=&quot;mailto:hi@zegetech.com&quot;&gt;hi@zegetech.com&lt;/a&gt;&lt;/p&gt;</content><author><name>Kariuki Gathitu</name></author><summary type="html"></summary></entry><entry><title type="html">Static Sites are back</title><link href="http://localhost:4000/news/2017/03/11/static-site-generators-are-back.html" rel="alternate" type="text/html" title="Static Sites are back" /><published>2017-03-11T01:16:01+03:00</published><updated>2017-03-11T01:16:01+03:00</updated><id>http://localhost:4000/news/2017/03/11/static-site-generators-are-back</id><content type="html" xml:base="http://localhost:4000/news/2017/03/11/static-site-generators-are-back.html">&lt;p&gt;&lt;img src=&quot;/assets/images/blog/ssg/old-gold.png&quot; alt=&quot;image-title-here&quot; class=&quot;img-resposive center&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;brief-history&quot;&gt;BRIEF HISTORY&lt;/h1&gt;
+
+&lt;p&gt;Think back to your first website. I want to assume you started off, like most developers by creating a series of HTML files. Each called  in assets such as images, CSS and perhaps a sprinkle of JavaScript. View the files on your browser and that was it!!. No web server required. Life was simple!!!That’s how it all began.&lt;/p&gt;
+
+&lt;p&gt;However, with more experience or possibly changing times.The need to create larger, more complex websites arose. Creating  and Managing them as single static files became tiresome and prone to errors.&lt;br /&gt;
+Take the example of a navigation bar and a footer, similar on every page. If a change is made on either of the components in a single page, the remaining pages would need to be updated, this would mean directly editing each one of the files. Like I said tiresome!!&lt;/p&gt;
+
+&lt;p&gt;The level of technical skills required also made it difficult for major stakeholders such as content writers or owners of the websites,to take part in website production.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;…Then came content management systems (CMS)&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Content Management Systems store page content in a database and provide facilities to edit and apply themes.Examples include Wordpress,Magento,Joomla, Drupal…&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Here’s a brief description of how they work:&lt;/em&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Determine which page is required.&lt;/li&gt;
+  &lt;li&gt;Requests appropriate content from the database.&lt;/li&gt;
+  &lt;li&gt;Loads a HTML template (normally from the file system).&lt;/li&gt;
+  &lt;li&gt;Renders the content within the template.&lt;/li&gt;
+  &lt;li&gt;Returns a formatted HTML page to the visitor’s browser.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Problem Solved well,,, not entirely.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;CMS create a new set of issues.&lt;/em&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;You need to adhere to the CMS’s way of working.Adding custom text or components can be a little awkward.&lt;/li&gt;
+  &lt;li&gt;The server is doing more work, and performance can be affected.&lt;/li&gt;
+  &lt;li&gt;There are additional points of failure. A software upgrade or database failure can bring your site down.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;static-sites-came-backwith-a-twist&quot;&gt;Static sites came back…with a twist!&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Oh Hail Static Site generators!!!&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;A Static Site Generator(SSG) is a compromise between using a hand-coded static site and a full CMS, while retaining the benefits of both.&lt;/p&gt;
+
+&lt;p&gt;In essence, it generates a static HTML-only website using CMS-like concepts such  as templates. The content can be extracted from a database but, more typically, Markdown files are used.&lt;/p&gt;
+
+&lt;p&gt;It creates web pages through a series of customizable templates and user data entry. Static sites generate pages when the owner makes changes to them and hosts the page as a pre-made set of HTML, CSS, and JavaScript files. 
+This contrasts CMS-based sites, which look for updates and build pages when a visitor accesses them.&lt;/p&gt;
+
+&lt;p&gt;Static site generators essentially abandon updating websites through a back-end system and do not require server processing to generate pages. Instead, generators create and update pages through an editor and save the updated versions to the hosting platform.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-good&quot;&gt;The good&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;1) Speed :&lt;/strong&gt;
+Perhaps the most immediately noticeable characteristic of a static site is how fast it is. As mentioned above, there are no database queries to run, no templating and no processing on every request.
+Web servers are really good at delivering static pages quickly, and the entire site consists of static HTML files that are sitting on the server, waiting to be served, so a request is served back to the user pretty much instantly.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2)security :&lt;/strong&gt;
+Platforms like WordPress are used by millions of people around the world, meaning they’re common targets for hackers and malicious attacks. Wherever there’s user input/authentication or multiple processes running code on every request, chances are there’s a security hole to exploit. For management, site administrators need to keep patching their systems with security updates.
+Static sites keep it simple, since there’s not much to mess up when there’s only a web server serving plain HTML pages.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3) Traffic surges :&lt;/strong&gt;
+Unexpected traffic peaks on a website can be a problem, especially when it relies intensively on database calls or heavy processing. 
+A static site is generally better prepared for those situations, as serving static HTML pages consumes a very small amount of server resources&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4). Client Control Considerations&lt;/strong&gt;
+Using a CMS is not necessarily easy, and it offers considerable power to content editors. You can lock down rights such as plugin installation, but it won’t stop changes to things like font, colors, corrupting the layout etc.&lt;/p&gt;
+
+&lt;p&gt;A static site can use Markdown files. That limits the user’s options; they make fewer mistakes and cannot adversely affect the pages. Some will miss the CMS content administration panels, but you can either:&lt;/p&gt;
+
+&lt;h2 id=&quot;the-better&quot;&gt;The better&lt;/h2&gt;
+
+&lt;p&gt;The continued success of Static site generators  can be attributed to the ability to seperate  the build phase of the site from the actual hosting of it.
+An architectural approach called the JAMstack.
+The JAMstack is a way of building websites and apps that delivers better performance, higher security, lower cost of scaling, and a better developer experience.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;A project is built with JAMstack if it meets the following criteria :&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Javascript:&lt;/strong&gt;
+Any dynamic programming during the request/response cycle is handled by JavaScript,
+running entirely on the client. This could be any frontend framework, library, or even vanilla JavaScript.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;APIs:&lt;/strong&gt;
+All server-side processes or database actions are abstracted into reusable APIs, accessed over HTTPS with JavaScript. These can be custom-built or leverage third-party services.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;MarkUp:&lt;/strong&gt;
+Templated markup should be prebuilt at deploy time, usually using a site generator for content sites, or a build tool for web apps.&lt;/p&gt;
+
+&lt;h1 id=&quot;jekyll-&quot;&gt;Jekyll .&lt;/h1&gt;
+
+&lt;p&gt;Now that that’s settled am sure you want to get started with a static site generator. 
+With the whole lot of options for static site generators,Hugo,Hexo,Gatsby,NUXT,MkDocs,jekyll…etc
+you probably wondering which one you should use.&lt;/p&gt;
+
+&lt;p&gt;Try jekyll. A mature product, with a huge support community. Jekyll is  natively supported by GitHub pages, a big bonus.&lt;/p&gt;
+
+&lt;p&gt;Jekyll has everything you need and nothing you don’t to get started with your website.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;It is fast
+It is flexible.
+It is blog-aware.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This site is built on jekyll. Navigate to see what I mean.&lt;/p&gt;
+
+&lt;p class=&quot;text-primary&quot;&gt;&lt;strong&gt;Getting started&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Requirements:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.ruby-lang.org/en/downloads/&quot;&gt;Ruby&lt;/a&gt; version 2.2.5 or above,ruby version can be checked by running ruby -v)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://rubygems.org/pages/download&quot;&gt;RubyGems&lt;/a&gt; (which you can check by running gem -v)&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Setup is relatively straight forward.&lt;/p&gt;
+
+&lt;p&gt;Run the following commands on your terminal&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Install Jekyll and bundler gems.
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  gem install bundler jekyll
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Create a new Jekyll site.&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  jekyll new my-site
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Change into your site’s directory.&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  cd my-site
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Build the site and make it available on a local server&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  bundle exec jekyll serve 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;=&amp;gt; Now browse to http://localhost:4000&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p class=&quot;text-primary&quot;&gt;&lt;strong&gt;Directory structure&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;On installation a jekyll site usually looks something like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/blog/ssg/jekyll-directory-structure.png&quot; alt=&quot;jekyll-default-file-structure&quot; class=&quot;img-responsive center&quot; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt;,\manages settings for the entire site or blog:&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Global variables on the site.&lt;/li&gt;
+      &lt;li&gt;Configuration of  collections or defaults.&lt;/li&gt;
+      &lt;li&gt;Specification of untime variables that you want jekyll to run every time.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_post&lt;/code&gt; The blog content goes here. The naming convention of these files is important, and must follow the format: &lt;code class=&quot;highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;.gitinore&lt;/code&gt; The paths to the files you want to exclude go here.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_site&lt;/code&gt; This is where jekyll puts the entire static site after the build.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;404.html&lt;/code&gt; Page displayed when one tries to access a broken link on your site. If you know how to create a single page template, you have the option of  customising this page.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Gemfile&lt;/code&gt; A Gemfile is Ruby’s dependency management system or in other words, a list of Gems a Ruby project needs to run.&lt;br /&gt;
+ what is a gem?
+ A Gem is a bundle of code we can include in Ruby projects sort of like an extension. This allows us to take someone else’s code and drop it into our own project.
+ Gems can perform functionality such as:&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;Converting a Ruby object to JSON&lt;/li&gt;
+      &lt;li&gt;Pagination&lt;/li&gt;
+      &lt;li&gt;Interact with APIs such as Github&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;p&gt;Jekyll itself is a Gem as well many Jekyll plugins including jekyll-feed, jekyll-seo-tag and jekyll-archives.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Gemfile.lock&lt;/code&gt; This file is auto-generated and includes all the Gems in Gemfile with the addition of a version number even if it wasn’t specified. This ensures that other people we share the source code to will have the same version of the gems.
+others&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;index.md&lt;/code&gt; Provided that the file has a front matter section, it will be transformed by Jekyll. The same will happen for any &lt;code class=&quot;highlighter-rouge&quot;&gt;.html&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;.markdown&lt;/code&gt;,  &lt;code class=&quot;highlighter-rouge&quot;&gt;.md&lt;/code&gt;, or &lt;code class=&quot;highlighter-rouge&quot;&gt;.textile&lt;/code&gt; file in your site’s root directory or directories not listed above&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;Others&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_layouts&lt;/code&gt; As the name suggests, this is where you put the layouts,display,basic description for the placement of site’s content.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;_includes&lt;/code&gt; Page snippets which can be included throughout the site. Includes are often used for page sections which are duplicated across the site like a header, footer, navigationbar, forms etc…&lt;/p&gt;
+
+&lt;p&gt;Great now run jekyll&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jekyll serve
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Resources:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;This is simply an introduction to get you started. Below is a list of resources that will get you more acquinted with jekyll.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://jekyllrb.com/docs/&quot;&gt;Jekyll’s offical site&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://learn.cloudcannon.com/&quot;&gt;Cloudcannon&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.taniarascia.com/make-a-static-website-with-jekyll/&quot;&gt;Tania Rascia&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://hermens.com.au/2016/10/14/Getting-started-with-Jekyll-Part-5/&quot;&gt;Learning Markdown and liquid&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Watch out for Part 2 of this article where we’ll talk about:
+&lt;strong&gt;Creating a CI/CD  pipeline for a Jekyll based website.&lt;/strong&gt;&lt;/p&gt;</content><author><name>Melvin Atieno</name></author><summary type="html"></summary></entry></feed>

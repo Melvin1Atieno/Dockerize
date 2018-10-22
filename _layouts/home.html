@@ -1,0 +1,222 @@
+{% include header.html %}
+
+<div class="bg-slider-wrapper">
+  <div id="bg-slider" class="flexslider bg-slider">
+    <ul class="slides">
+      <li class="slide slide-1"></li>
+      <li class="slide slide-2"></li>
+      <li class="slide slide-3"></li>
+    </ul>
+  </div>
+</div><!--//bg-slider-wrapper--> 
+<section id="home-promo" class="home-promo section">
+  <div class="container text-center">                
+    <h2 class="title">
+      <span class="upper"><span class="hidden-xs" style="display: inline;">Mobile and Web</span> Software Development Consultancy</span>
+      <span class="middle">Develop amazing products. Fast</span>
+      <span class="bottom">Unlock your business <i class="hidden-xs">technology</i> potential</span>
+    </h2>
+    <a id="get-estimate-btn" href="estimate.html" class="btn btn-cta btn-cta-primary" >Start your project</a>
+  </div><!--//container-->
+</section><!--//promo-->
+</div><!--//header-wrapper-->
+
+<!-- ******Why Section****** -->
+<section id="who" class="who section">
+  <div class="container text-center">
+    <h2 class="title text-center">Who we are</h2>
+    <img src="/assets/images/background/world_map.png" width="500px" class="img-responsive" style="display: inline;" alt="World Map with zegetech locations" title="zegetech locations">
+    <p class="intro text-center">We are a <a href="http://www.laurencegellert.com/2012/08/what-is-a-full-stack-developer/" target="_blank">full-stack</a> team of developers and designers based in Nairobi and working all over Africa. We use a <a href="http://stackshare.io/zege-technologies/zege-technologies" target="_blank">state-of-the-art technology stack</a> to build mobile and desktop web applications. Fast! <br/> We <i class="icon_heart_alt"></i> Fintech<br/> We <i class="icon_heart_alt"></i> Africa</p>
+    <div class="row benefits text-center">
+      <div class="item col-md-3 col-sm-6 col-xs-12">
+        <div class="item-inner">
+          <div class="fs1" aria-hidden="true" data-icon="&#xe007;"></div>                        
+          <h3 class="sub-title">Skilled team</h3>
+          <div class="desc">
+            <p>Our developers and designers rank in the top 2% of talent in the region. We aim to build beautiful products</p>
+          </div>                
+        </div>       
+      </div><!--//item-->
+      <div class="item col-md-3 col-sm-6 col-xs-12 sm-break">
+        <div class="item-inner">
+          <div class="fs1" aria-hidden="true" data-icon="&#xe01c;"></div>
+          <h3 class="sub-title">Agile approach</h3>
+          <div class="desc">
+            <p>From idea to launch, we take a systematic approach to problem solving for quick results and pragmatic delivery</p>
+          </div>   
+        </div><!--//item-inner-->                    
+      </div><!--//item-->
+      <div class="item col-md-3 col-sm-6 col-xs-12">
+        <div class="item-inner">
+          <div class="fs1" aria-hidden="true" data-icon="&#xe031;"></div>
+          <h3 class="sub-title">High quality code</h3>
+          <div class="desc">
+            <p>No code goes untested. Code reviews ensure that both our teams and clients can sleep easy without worry</p>
+          </div>            
+        </div><!--//item-inner-->
+      </div><!--//item-->
+      <div class="item col-md-3 col-sm-6 col-xs-12">
+        <div class="item-inner">
+          <div class="fs1" aria-hidden="true" data-icon="&#xe100;"></div>                        
+          <h3 class="sub-title">No overheads</h3>
+          <div class="desc">
+            <p>We are lean in delivering products with simple, minimal design and optimised resources. No bloat, no waste</p>
+          </div>         
+        </div><!--//item-inner-->              
+      </div><!--//item-->
+    </div><!--//row-->
+    <a class="btn btn-cta btn-cta-secondary" href="team.html">Meet our team</a>
+  </div><!--//container-->
+</section><!--//who-->
+
+<!-- ******Latest work section****** -->
+<section id="latest-work" class="latest-work section">
+  <div class="container-fluid text-center">
+    <h2 class="title text-center">Case Studies</h2>
+    <div id="work-carousel" class="items owl-carousel owl-theme">
+    {% for project in site.projects limit:3 %}
+      <div class="item item-1">
+        <div class="row">
+          <figure class="figure-container col-md-6 col-sm-12 col-xs-12">
+            <a href="https://app.pesazetu.co/" target="_blank" style="display: block; background: #65758e url('/assets/images/work/{{project.thumbnail}}') no-repeat 50% 50%;-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;"></a>
+          </figure>
+          <div class="content col-md-6 col-sm-12 col-xs-12">
+            <div class="content-inner">
+              <h3 class="project-title">{{project.subtitle}}</h3>
+              <ul class="meta list-unstyled">
+                {% if page.client %}<li><strong>Client: </strong>{{project.client}} </li>{% endif %}
+                {% if page.partners %}<li><strong>Partners: </strong>{{project.partners}} </li>{% endif %}
+                <li><strong>What we did: </strong>{{project.tasks}} </li>
+              </ul><!--//meta-->
+              <div class="desc">
+                <p>{{project.challenge | truncatewords : 20}} </p>
+              </div><!--//desc-->
+              <p class="link" ><i class="fa fa-briefcase"></i> <a class="more-link" href="{{project.url}}">Read full case study</a></p>
+              {% if project.project_url%}<p class="link" ><i class="fa fa-external-link"></i> <a class="site-link" href="{{project.project_url}}" target="_blank">Website link</a></p>{% endif %}
+            </div><!--//content-inner-->
+          </div><!--//content-->
+        </div><!--//row-->
+      </div><!--//item-->
+    {% endfor %}
+    </div><!--//owl-carousel-->
+    <a class="btn btn-cta btn-cta-secondary" href="work.html">View more case studies</a>
+  </div><!--container-fluid-->
+</section><!--//latest-work-->
+
+<!-- ******Testimonials Section****** -->
+<section id="testimonials" class="testimonials section">
+  <div class="container">
+    <h2 class="title text-center">Testimonials</h2>
+    <p class="intro text-center">Don’t just take our word for it – see what others are saying</p>
+    <div class="row">
+      <div class="item col-md-6 col-sm-6 col-xs-12">
+        <div class="item-inner">
+          <div class="quote-container">
+            <i class="fa fa-quote-left"></i> 
+            <blockquote class="quote">I am always searching for the companies that can deliver the "tech" in FinTech... and Zegetech delivered</blockquote>                             
+          </div><!--//quote-->
+          <div class="meta">
+            <div class="profile">
+              <img class="img-circle" src="/assets/images/client/client-william.jpg" alt="" width="100px" alt="William Keliehor" />
+              <p class="name">William Keliehor<br />
+                <span class="source-title">New York, USA<br/>FinTech Advisory and Investor</span>
+              </p>
+            </div><!--//profile-->
+            <div class="client-logo col-md-5">
+              <!-- <img class="img-responsive" src="/assets/images/client/logo-amex.png" alt=""/> -->
+            </div><!--//client-logo-->
+          </div><!--//meta-->        
+        </div><!--//item-inner-->        
+      </div><!--//item-->
+
+      <div class="item col-md-6 col-sm-6 col-xs-12">
+        <div class="item-inner">
+          <div class="quote-container">
+            <i class="fa fa-quote-left"></i> 
+            <blockquote class="quote">I love the zegetech team for their knowledge and expertise in payments and financial technology. The way they turned our ideas and input into a product was exceptional.                   
+            </blockquote><!--//quote-->                              
+          </div><!--//quote-->
+          <div class="meta">
+            <div class="profile">
+              <img class="img-circle" src="/assets/images/client/client-james.jpg" alt="" width="100px"/>
+              <p class="name">James Vancel<br />
+                <span class="source-title">Nairobi, Kenya<br/>MD Busara Center</span>
+              </p>
+            </div><!--//profile-->
+            <div class="client-logo col-md-5">
+              <img class="img-responsive" src="/assets/images/client/logo-busara.png" alt=""/>
+            </div><!--//client-logo-->
+          </div><!--//meta-->     
+        </div><!--//item-inner-->           
+      </div><!--//item-->
+
+      <div class="clearfix"></div>
+
+      <div class="item col-md-6 col-sm-6 col-xs-12">
+        <div class="item-inner">
+          <div class="quote-container">
+            <i class="fa fa-quote-left"></i> 
+            <blockquote class="quote">Zegetech is absolutely ambitious in their product scope. They work hard throughout their execution to deliver on their promise.                          
+            </blockquote><!--//quote-->                              
+          </div><!--//quote-->
+          <div class="meta">
+            <div class="profile">
+              <img class="img-circle" src="/assets/images/client/client-nicole.jpg" alt="" width="100px"/>
+              <p class="name">Nicole Van Der Tuin<br />
+                <span class="source-title">New York, USA<br/>CEO FirstAccess </span>
+              </p>
+            </div><!--//profile-->
+            <div class="client-logo col-md-5">
+              <img class="img-responsive" src="/assets/images/client/logo-firstaccess.png" alt=""/>
+            </div><!--//client-logo-->
+          </div><!--//meta-->  
+        </div><!--//item-inner-->              
+      </div><!--//item-->
+
+      <div class="item col-md-6 col-sm-6 col-xs-12">
+        <div class="item-inner">
+          <div class="quote-container">
+            <i class="fa fa-quote-left"></i> 
+            <blockquote class="quote">Good developers in the region are dime a dozen. I was happy to find, not just good but great software development from Zegetech. Rest assured, Zegetech delivers. Period!  
+            </blockquote><!--//quote-->                              
+          </div><!--//quote-->
+          <div class="meta">
+            <div class="profile">
+              <img class="img-circle" src="/assets/images/client/client-hilda.jpg" alt="" width="100px"/>
+              <p class="name">Hilda Moraa<br />
+                <span class="source-title">Nairobi, Kenya<br/>CEO Pezesha</span>
+              </p>
+            </div><!--//profile-->
+            <div class="client-logo col-md-5">
+              <img class="img-responsive" src="/assets/images/client/logo-pezesha.png" alt=""/>
+            </div><!--//client-logo-->
+          </div><!--//meta-->  
+        </div><!--//item-inner-->              
+      </div><!--//item-->
+    </div><!--//row-->
+  </div><!--//container-->
+</section><!--//testimonials-->          
+
+<!-- ******Logos Section****** -->
+<section id="logos" class="logos section">
+  <div class="container text-center">
+    <h2 class="title">Who we have worked with</h2>
+    <p class="intro">Payment Solutions / SaaS / Mobile apps / Marketing sites / Internal apps</p>
+    <ul class="logo-list list-inline row">
+      <li class="col-md-3 col-sm-3 col-xs-6"><img class="img-responsive col-md-9" src="/assets/images/logos/logo-equity.jpg" alt="" /></li>
+      <li class="col-md-3 col-sm-3 col-xs-6 xs-break"><img class="img-responsive col-md-9" src="/assets/images/logos/logo-coop.jpg" alt="" /></li>
+      <li class="col-md-3 col-sm-3 col-xs-6"><img class="img-responsive col-md-9" src="/assets/images/logos/logo-devex.png" alt="" /></li>                   
+      <li class="col-md-3 col-sm-3 col-xs-6 xs-break"><img class="img-responsive col-md-9" src="/assets/images/logos/logo-safaricom.png" alt="" /></li> 
+    </ul><!--//logo-list-->
+    <ul class="logo-list list-inline row last">
+      <li class="col-md-3 col-sm-3 col-xs-6"><img class="img-responsive col-md-9" src="/assets/images/logos/logo-sab.jpg" alt="" /></li>
+      <li class="col-md-3 col-sm-3 col-xs-6 xs-break"><img class="img-responsive col-md-9" src="/assets/images/logos/logo-fsdkenya.png" alt="" /></li>
+      <li class="col-md-3 col-sm-3 col-xs-6"><img class="img-responsive col-md-9" src="/assets/images/logos/logo-musoni.png" alt="" /></li>                   
+      <li class="col-md-3 col-sm-3 col-xs-6 xs-break"><img class="img-responsive col-md-9" src="/assets/images/logos/logo-angloamerican.png" alt="" /></li>                   
+    </ul><!--//logos-list-->               
+  </div><!--//container-->
+</section><!--//logos-->
+
+{% include quickchat.html %}
+{% include latest_blogs.html %}
+{% include footer.html %}

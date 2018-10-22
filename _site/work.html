@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->  
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->  
+
+<head>
+  <title>Ruby on Rails Software developement &amp; consultancy | Zege Technologies</title>
+  <!-- Meta -->
+  <meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Zegetech is an Agile team with excellent track record &amp; great communication skills. We love Ruby on Rails, Angular and mobile development! Ping us!" />
+<!-- <meta name="author" content="" />    -->
+<meta name="keywords" content="ruby rails angular zege technologies agile sprint MPESA safaricom fintech software developer nairobi freelancer kenya mobile developer android ios" />   
+<meta name="theme-color" content="#242e3c" />
+
+<meta property="fb:app_id" content="2224550211104435" /> 
+<meta property="og:type" content="business.business" />
+<meta property="og:title" content="Ruby on Rails, Angular and mobile development team | Zegetech" />
+<meta property="og:image" content="https://zegetech.com/webicon.jpg" />
+<meta property="og:image:width" content="600" />
+<meta property="og:image:height" content="365" />
+<meta property="og:url" content="https://zegetech.com" />
+<meta property="og:description" content="Zegetech is an Agile team with excellent track record &amp; great communication skills. We love Ruby on Rails, Angular and mobile development! Ping us!" />
+<meta property="og:site_name" content="Zege Technologies" />
+<meta property="business:contact_data:street_address" content="Ngong' Road" /> 
+<meta property="business:contact_data:locality"       content="Nairobi" /> 
+<meta property="business:contact_data:postal_code"    content="00623" /> 
+<meta property="business:contact_data:country_name"   content="Kenya" /> 
+<!-- <meta property="place:location:latitude"              content="Sample Location: Latitude" />  -->
+<!-- <meta property="place:location:longitude"             content="Sample Location: Longitude" />  -->
+
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@zegetech" />
+<meta name="twitter:description" content="Zegetech is an Agile team with excellent track record &amp; great communication skills. We love Ruby on Rails, Angular and mobile development! Ping us!" />
+<meta name="twitter:title" content="Ruby on Rails, Angular and mobile development team | Zegetech" />
+<meta name="robots" content="index, follow" />
+<meta name="format-detection" content="telephone=no" />
+  <link rel="shortcut icon" href="/favicon.ico?20181019092408">  
+<!-- <link href='https://fonts.googleapis.com/css?family=Merriweather+Sans:700,300italic,400italic,700italic,300,400' rel='stylesheet' type='text/css'> -->
+<!-- <link href='https://fonts.googleapis.com/css?family=Russo+One' rel='stylesheet' type='text/css'> -->
+<!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'> -->
+<link href="https://fonts.googleapis.com/css?family=Dosis:600|Maven+Pro" rel="stylesheet">
+<!-- Global CSS -->
+<link rel="stylesheet" href="/assets/plugins/bootstrap/css/bootstrap.min.css">   
+<!-- Plugins CSS -->    
+<link rel="stylesheet" href="/assets/plugins/font-awesome/css/font-awesome.css">
+<link rel="stylesheet" href="/assets/plugins/elegant_font/css/style.css">
+<link rel="stylesheet" href="/assets/plugins/flexslider/flexslider.css">
+<link rel="stylesheet" href="/assets/plugins/owl-carousel/owl.carousel.css">
+<link rel="stylesheet" href="/assets/plugins/owl-carousel/owl.theme.css">
+
+
+
+<!-- Theme CSS -->
+<link id="theme-style" rel="stylesheet" href="/assets/css/styles.css">
+
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-90962714-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  <!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1895055994062706'); // Insert your pixel ID here.
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1895055994062706&ev=PageView&noscript=1"
+/></noscript>
+<!-- DO NOT MODIFY -->
+<!-- End Facebook Pixel Code -->
+
+  <!-- Start of Async Drift Code -->
+<script>
+!function() {
+  var t;
+  if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0, 
+  t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+  t.factory = function(e) {
+    return function() {
+      var n;
+      return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
+    };
+  }, t.methods.forEach(function(e) {
+    t[e] = t.factory(e);
+  }), t.load = function(t) {
+    var e, n, o, i;
+    e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"), 
+    o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js", 
+    n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
+  });
+}();
+drift.SNIPPET_VERSION = '0.3.1';
+drift.load('ay94wkkbi99i');
+</script>
+<!-- End of Async Drift Code -->
+
+</head> 
+<body class="work-page">     
+  <div class="header-wrapper header-wrapper-work">
+   <header id="header" class="header navbar-fixed-top">  
+  <div class="container">       
+    <h1 class="logo">
+      <img src="/assets/images/logos/favicon.png" height="35px" alt="Zegetech Logo" title="Zegetech logo" />
+      <a href="/"><span class="highlight">ZEGE</span>TECH</a>
+    </h1><!--//logo-->
+    <nav class="main-nav navbar-right" role="navigation">
+      <div class="navbar-header">
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button><!--//nav-toggle-->
+      </div><!--//navbar-header-->
+      <div id="navbar-collapse" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li class=" nav-item"><a href="/">Home</a></li>
+          <li class=" active  nav-item"><a href="/work.html">Work</a></li>                       
+          <li class=" nav-item"><a href="/team.html">Team</a></li>                                              
+          <li class=" nav-item"><a href="/news.html">News</a></li>
+          <li class=" nav-item"><a href="/contact.html">Contact</a></li>
+          <!-- <li class="nav-item"><a href="/estimate.html">Blog</a></li> -->
+          <li id="get-estimate" class="nav-item last btn-cta-primary"><a href="/estimate.html">Get an estimate</a></li>
+        </ul><!--//nav-->
+      </div><!--//navabr-collapse-->
+    </nav><!--//main-nav-->
+  </div><!--//container-->
+</header><!--//header-->  
+         
+ 
+		<section class="promo section">
+		<div class="container text-center">                
+			<h2 class="title">Our Work</h2>
+			<p class="intro">Our approach involves working with you to understand the vision for your ideas in order to build well-placed and thought out products through a well-defined process from idea to launch</p>
+		</div><!--//container-->
+	</section><!--//promo-->
+</div><!--//header-wrapper--> 
+
+<!-- ******Intro Section****** -->
+<section id="services" class="services section">
+  <div class="container text-center">
+  <h2 class="title">We build platforms</h2>
+      <p class="intro"><b>Idea . Scope . Discovery . Design . Develop . Pilot . Launch . Grow . PROFIT!</b><br />We develop products from idea to launch. We use <a href="http://agilemanifesto.org/principles.html" target="_blank">agile principles</a> in taking the idea through <a href="http://www.gv.com/sprint/" target="_blank">sprints</a>, building prototypes and running proof-of-concepts, deploying to staging environments for piloting within record time and thereafter go on to launch. We then provide support, training and consultancy to the technology and business teams. We help you innovate by working with you to build bold innovative products that can plug into your business to harness new opportunities and expand your horizons.</p>
+  </div>
+</section>
+<!-- ******Work list Section****** -->
+<section id="work-list" class="section work-list">
+  <div class="container text-center">
+    <h2 class="title">Case Studies</h2>
+    <div id="filters" class="button-group clearfix">
+      <button class="btn button is-checked" data-filter="*">All</button>
+      <button class="btn button" data-filter=".saas">SaaS</button>
+      <button class="btn button" data-filter=".mobile-app">Mobile app</button>
+      <button class="btn button" data-filter=".ussd">USSD</button>
+      <button class="btn button" data-filter=".startup">Startup</button>
+      <button class="btn button last" data-filter=".payments">Payments</button>
+    </div><!--//filters-->
+    <div class="items-wrapper isotope row">
+      
+      
+      <div class="item  startup  saas  ussd  payments  col-lg-4 col-md-4 col-sm-6 col-sm-12 ">
+        <div class="item-inner">
+          <figure class="figure">
+            <a href="/projects/1_pesazetu.html"><img class="img-responsive" src="/assets/images/work/showcase_pesazetu.jpg" alt="" /></a>
+            <a class="info-mask" href="/projects/1_pesazetu.html">
+              <span class="desc">Pesa Zetu is a crowdfunding platform that aims to give borrowers small loans for business, health and educational purposes.</span>
+              <span class="btn btn-cta btn-cta-primary">View case study</span>
+            </a><!--//info-mask-->
+          </figure>
+          <div class="content text-left">
+            <h3 class="sub-title"><a href="/projects/1_pesazetu.html">PesaZetu: P2P Lending Platform</a></h3>
+            
+            <div class="meta">Startup / SaaS / USSD / Payments</div>
+          </div><!--//content-->                    
+        </div><!--//item-inner-->
+      </div><!--//item-->
+<!--       <li>
+        <img src="" alt=""/>
+        <a href=""></a>
+        <p></p>
+      </li> -->
+      
+      
+      <div class="item  saas  mobile app  payments  col-lg-4 col-md-4 col-sm-6 col-sm-12 ">
+        <div class="item-inner">
+          <figure class="figure">
+            <a href="/projects/2_agronet.html"><img class="img-responsive" src="/assets/images/work/showcase_agronet.jpg" alt="" /></a>
+            <a class="info-mask" href="/projects/2_agronet.html">
+              <span class="desc">Agronet is a payment network that allows farmer to receive instant payment for the milk they sell.</span>
+              <span class="btn btn-cta btn-cta-primary">View case study</span>
+            </a><!--//info-mask-->
+          </figure>
+          <div class="content text-left">
+            <h3 class="sub-title"><a href="/projects/2_agronet.html">Agronet: Dairy Payments Network</a></h3>
+            
+            <div class="meta">SaaS / Mobile app / Payments</div>
+          </div><!--//content-->                    
+        </div><!--//item-inner-->
+      </div><!--//item-->
+<!--       <li>
+        <img src="" alt=""/>
+        <a href=""></a>
+        <p></p>
+      </li> -->
+      
+      
+      <div class="item  saas  mobile app  col-lg-4 col-md-4 col-sm-6 col-sm-12 ">
+        <div class="item-inner">
+          <figure class="figure">
+            <a href="/projects/3_cashbox.html"><img class="img-responsive" src="/assets/images/work/showcase_cashbox.jpg" alt="" /></a>
+            <a class="info-mask" href="/projects/3_cashbox.html">
+              <span class="desc">Cashbox is a mobile point of sale application used by businesses with outlets to manaage customers, payments and inventory.</span>
+              <span class="btn btn-cta btn-cta-primary">View case study</span>
+            </a><!--//info-mask-->
+          </figure>
+          <div class="content text-left">
+            <h3 class="sub-title"><a href="/projects/3_cashbox.html">Cashbox: Mobile POS</a></h3>
+            
+            <div class="meta">SaaS / Mobile app</div>
+          </div><!--//content-->                    
+        </div><!--//item-inner-->
+      </div><!--//item-->
+<!--       <li>
+        <img src="" alt=""/>
+        <a href=""></a>
+        <p></p>
+      </li> -->
+      
+      
+      <div class="item  startup  saas  payments  col-lg-4 col-md-4 col-sm-6 col-sm-12 ">
+        <div class="item-inner">
+          <figure class="figure">
+            <a href="/projects/4_mpayer.html"><img class="img-responsive" src="/assets/images/work/showcase_mpayer.jpg" alt="" /></a>
+            <a class="info-mask" href="/projects/4_mpayer.html">
+              <span class="desc">MPAYER is a platform that manages customer payments, communication and engagement for customer focused businesses.</span>
+              <span class="btn btn-cta btn-cta-primary">View case study</span>
+            </a><!--//info-mask-->
+          </figure>
+          <div class="content text-left">
+            <h3 class="sub-title"><a href="/projects/4_mpayer.html">MPAYER: Payment gateway and Customer engagement</a></h3>
+            
+            <div class="meta">Startup / SaaS / Payments</div>
+          </div><!--//content-->                    
+        </div><!--//item-inner-->
+      </div><!--//item-->
+<!--       <li>
+        <img src="" alt=""/>
+        <a href=""></a>
+        <p></p>
+      </li> -->
+      
+      
+      <div class="item  payments  col-lg-4 col-md-4 col-sm-6 col-sm-12 ">
+        <div class="item-inner">
+          <figure class="figure">
+            <a href="/projects/5_mkesho.html"><img class="img-responsive" src="/assets/images/work/showcase_mkesho.jpg" alt="" /></a>
+            <a class="info-mask" href="/projects/5_mkesho.html">
+              <span class="desc">MKESHO is a mobile finance product that enables bank clients to save and borrow from their feature phones.</span>
+              <span class="btn btn-cta btn-cta-primary">View case study</span>
+            </a><!--//info-mask-->
+          </figure>
+          <div class="content text-left">
+            <h3 class="sub-title"><a href="/projects/5_mkesho.html">MKESHO: Payment integration and automation</a></h3>
+            
+            <div class="meta">Payments</div>
+          </div><!--//content-->                    
+        </div><!--//item-inner-->
+      </div><!--//item-->
+<!--       <li>
+        <img src="" alt=""/>
+        <a href=""></a>
+        <p></p>
+      </li> -->
+      
+      
+      <div class="item  payments  mobile app  col-lg-4 col-md-4 col-sm-6 col-sm-12 ">
+        <div class="item-inner">
+          <figure class="figure">
+            <a href="/projects/6_pay4us.html"><img class="img-responsive" src="/assets/images/work/showcase_pay4us.jpg" alt="" /></a>
+            <a class="info-mask" href="/projects/6_pay4us.html">
+              <span class="desc">Pay4Us is a mobile application that manages an informal savings and investment groups' table banking activities.</span>
+              <span class="btn btn-cta btn-cta-primary">View case study</span>
+            </a><!--//info-mask-->
+          </figure>
+          <div class="content text-left">
+            <h3 class="sub-title"><a href="/projects/6_pay4us.html">Pay4Us: Table banking platform</a></h3>
+            
+            <div class="meta">Payments / Mobile app</div>
+          </div><!--//content-->                    
+        </div><!--//item-inner-->
+      </div><!--//item-->
+<!--       <li>
+        <img src="" alt=""/>
+        <a href=""></a>
+        <p></p>
+      </li> -->
+      
+    </div><!--//items-wrapper-->
+  </div><!--//container-fluid-->
+</section>
+<!--//work-list"-->
+
+<!-- ******Services Section****** -->
+<section id="services" class="services section">
+  <div class="container text-center">
+    <p class="container text-center">
+      <a id="philosophy"> </a>
+      <h2 class="title">Our Philosophy</h2>
+    </p>
+    <div class="service-items row">
+      <div class="item col-lg-3 col-md-6 col-sm-6 col-xs-12">
+        <div class="item-inner">
+          <div class="header-box">
+            <i class="fs1 icon_genius" aria-hidden="true"></i>
+          </div><!--//header-->
+          <div class="desc">
+            <h3 class="sub-title">Our Process</h3>
+            <p><a href="http://agilemanifesto.org/principles.html" target="_blank">Agile principles</a> ensures flexiblity and adaptability to project changes. We build with scalability and high performance in mind. Product quality is important, thus the need for quality-driven development and testing. </p>
+          </div>
+        </div><!--//item-inner-->
+      </div><!--//item-->
+      <div class="item col-lg-3 col-md-6 col-sm-6 col-xs-12">
+        <div class="item-inner">
+          <div class="header-box">
+            <i class="fs1 icon_star_alt" aria-hidden="true"></i>
+          </div><!--//header-->
+          <div class="desc">
+            <h3 class="sub-title">Quality</h3>
+            <p>We love a good night sleep. No code goes untested. Peer review ensures that code is satisfactory. We use <a href="http://nvie.com/posts/a-successful-git-branching-model/" target="_blank">git-flow feature branch cycles</a> for code. Automated testing and continous delivery to keep things maintainable. </p>
+          </div>
+        </div><!--//item-inner-->
+      </div><!--//item-->
+      <div class="item col-lg-3 col-md-6 col-sm-6 col-xs-12">
+        <div class="item-inner">
+          <div class="header-box">
+            <i class="fs1 icon_chat_alt" aria-hidden="true"></i>
+          </div><!--//header-->
+          <div class="desc">
+            <h3 class="sub-title">Transparency</h3>
+            <p>We believe that transparency and communication are key to building good software. You get full access to our PM tool <a href="https://asana.com" target="_blank">Asana</a> and others like <a href="https://trello.com" target="_blank">Trello</a>. Get end-of-week reports and set priority for following week.</p>
+          </div>
+        </div><!--//item-inner-->
+      </div><!--//item-->
+      <div class="item col-lg-3 col-md-6 col-sm-6 col-xs-12">
+        <div class="item-inner">
+          <div class="header-box">
+            <i class="fs1 icon_loading" aria-hidden="true"></i>
+          </div><!--//header-->
+          <div class="desc">
+            <h3 class="sub-title">Continuity</h3>
+            <p>We have deep roots in the technology market. We care deeply about the success of our projects and we will be with you long after the project is done. Any project transition to inhouse or outsourced teams is smooth</p>
+          </div>
+        </div><!--//item-inner-->
+      </div><!--//item-->
+      <div class="item col-lg-3 col-md-6 col-sm-6 col-xs-12">
+        <div class="item-inner">
+          <div class="header-box">
+            <i class="fs1 icon_clock_alt" aria-hidden="true"></i>
+          </div><!--//header-->
+          <div class="desc">
+            <h3 class="sub-title">Speed</h3>
+            <p>We ship your product fast and early using the agile workflow. Coding quickly while maintaining high quality. We use the cloud for rapid deployment on AWS, Digital Ocean and others. You get to market early </p>
+          </div>
+        </div><!--//item-inner-->
+      </div><!--//item-->
+      <div class="item col-lg-3 col-md-6 col-sm-6 col-xs-12">
+        <div class="item-inner">
+          <div class="header-box">
+            <i class="fs1 icon_key_alt" aria-hidden="true"></i>
+          </div><!--//header-->
+          <div class="desc">
+            <h3 class="sub-title">Trust</h3>
+            <p>The first month of collaboration is trial. You can terminate if unhappy with the relationship for any reason. We keep business confidential and are happy to sign an NDA. The code created belongs to you.</p>
+          </div>
+        </div><!--//item-inner-->
+      </div><!--//item-->
+      <div class="item col-lg-3 col-md-6 col-sm-6 col-xs-12">
+        <div class="item-inner"> 
+          <div class="header-box">
+            <i class="fs1 icon_tools" aria-hidden="true"></i>
+          </div><!--//header-->
+          <div class="desc">
+            <h3 class="sub-title">Technology</h3>
+            <p>We choose <a href="https://www.toptal.com/ruby-on-rails/after-two-decades-of-programming-i-use-rails" target="_blank">Ruby on Rails</a> and <a href="http://blog.rangle.io/why-use-angular-2-on-a-new-application/" target="_blank">Angular</a>. We build USSD apps and APIs. We have vast experience integrating to external services like Mailchimp, Social platforms, Bank system and payment gateways</p>
+          </div>
+        </div><!--//item-inner-->
+      </div><!--//item-->
+      <div class="item col-lg-3 col-md-6 col-sm-6 col-xs-12">
+        <div class="item-inner">
+          <div class="header-box">
+            <i class="fs1 icon_lock_alt" aria-hidden="true"></i>
+          </div><!--//header-->
+          <div class="desc">
+            <h3 class="sub-title">Security</h3>
+            <p>Working with banks and fintech startups has helped us gain sufficient experience to build apps with state-of-the-art security standards, backup and recovery. And in case of an emergency, you can always reach us.</p>
+          </div>
+        </div><!--//item-inner-->
+      </div><!--//item-->
+    </div><!--//row--> 
+    <h2 class="title">We <i class="icon_heart"></i> Agile</h2>
+    <p class="video-container">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/K2vSQPh6MCE" frameborder="0" allowfullscreen=""></iframe>
+    </p>
+    <img src="/assets/images/work/agileprocess.png" class="img-responsive" />
+    <h3>
+      Need a successful project?
+    </h3>
+    <a id="get-estimate-btn" class="btn btn-cta btn-cta-primary" href="estimate.html">Get an Estimate</a>         
+  </div><!--//container-->
+</section>
+<p><!--//services --></p>
+
+<!-- ******CTA Section****** -->
+<section id="cta-section" class="cta-section section text-center home-cta-section">
+  <div class="container">
+    <h2 class="title">Want to have a quick chat?</h2>
+    <p class="phone contact-info">
+      <span class="intro">We are only a phone call away</span>
+      <span class="info list-inline text-center">
+        <a href="tel:+254705504211"><i class="fs1 fa fa-comments-o" aria-hidden="true"></i></a>&nbsp;
+        <a href="skype:zegetech"><i class="fs1 fa fa-skype" aria-hidden="true"></i></a>
+        <a href="whatsapp://send?phone=+254705504211&amp;text=i would like to know more about how you can help me build my product"><i class="fs1 fa fa-whatsapp" aria-hidden="true"></i></a>
+      </span>
+      <span class="info"><a href="tel:+254705504211">+254-705-504211</a></span>
+    </p><!--//phone-->
+    <p class="email contact-info">
+      <span class="intro">You can also email us</span>
+      <span class="info"><a href="mailto:hi@zegetech.com">hi@zegetech.com</a></span>
+    </p><!--//phone-->              
+  </div><!--//container-->
+</section>
+<!--//cta-section-->
+
+
+<!-- ******FOOTER****** -->
+<footer class="footer">
+  <div class="footer-content">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col col-md-3 col-sm-4 links-col">
+          <div class="footer-col-inner">
+            <h3 class="sub-title">Quick Links</h3>
+            <ul class="list-unstyled">
+              <li><a href="/work.html">Work</a></li>
+              <li><a href="/team.html">Team</a></li>
+              <li><a href="/contact.html">Contact</a></li>
+              <li><a href="/estimate.html">Get an estimate</a></li>
+              <li><a href="/partner.html">Partner with us</a></li>
+              <li><a href="/talent.html">Join the team</a></li>
+              <!-- <li><a href="#">Privacy policy</a></li> -->
+              <!-- <li><a href="#">Terms &amp; Conditions</a></li> -->
+            </ul>
+          </div><!--//footer-col-inner-->
+        </div><!--//foooter-col-->
+        <div class="footer-col col-md-6 col-sm-8 blog-col">
+          <div class="footer-col-inner">
+            <h3 class="sub-title">In The News</h3>
+            <div class="item">
+              <figure class="figure">
+                <img class="img-responsive" src="/assets/images/blog/kariuki-tiny-thumb.jpg" alt="Kariuki Gathitu" title="Kariuki Gathitu"/>
+              </figure>
+              <div class="content">
+                <h4 class="post-title"><a href="https://founder360mag.com/this-entrepreneur-left-his-bank-job-and-built-one-of-the-most-successful-fintech-products-in-africa/" target="_blank">Kariuki on The Founder</a></h4>
+                <p class="intro">Kariuki Gathitu is the founder and lead system architect and software developer at Zege Tech...</p>
+                <ul class="meta list-inline">
+                  <li>January 2018</li>
+                  <li>Founder 360</li>
+                </ul>
+              </div><!--//content-->
+            </div>
+            <div class="item">
+              <figure class="figure">
+                <img class="img-responsive" src="/assets/images/blog/stack-off-thumb.jpg" alt="stack-off" title="stack-off" />
+              </figure>
+              <div class="content">
+                <h4 class="post-title"><a href="https://founder360mag.com/stackoff2017-report-be-a-world-class-developer-by-mastering-these-programming-languages/" target="_blank">#StackOff2017 Report</a></h4>
+                <p class="intro">Become a world class developer by mastering these programming languages...</p>
+                <ul class="meta list-inline">
+                  <li>April 2018</li>
+                  <li>Founders 360</li>
+                </ul>
+              </div><!--//content-->
+            </div>
+          </div><!--//footer-col-inner-->
+        </div><!--//foooter-col-->
+        <div class="footer-col col-md-3 col-sm-12 contact-col">
+          <div class="footer-col-inner">
+            <h3 class="sub-title">Get In Touch</h3>
+            <p class="intro"></p>
+            <div class="row">
+              <p class="adr clearfix col-md-12 col-sm-4">
+                <span class="fs1" aria-hidden="true" data-icon="&#xe01d;"></span>
+                <span class="adr-group">
+                  <span class="street-address">Zege Technologies</span><br />
+                  <span class="city">Riara Center, D2</span><br />
+                  <span class="postal-code">Off Riara Road</span><br />
+                  <span class="country-name">Nairobi, Kenya</span>
+                </span>
+              </p>
+              <p class="tel col-md-12 col-sm-4"><span class="fs1" aria-hidden="true" data-icon="&#x77;"></span><a href="tel:+254705504211">+254-705-504211</a></p>
+              <p class="email col-md-12 col-sm-4"><span class="fs1" aria-hidden="true" data-icon="&#xe010;"></span><a href="mailto:hi@zegetech.com">hi@zegetech.com</a></p>
+            </div>
+          </div><!--//footer-col-inner-->
+        </div><!--//foooter-col-->
+      </div>
+    </div>
+  </div><!--//footer-content-->
+  <div class="bottom-bar">
+    <div class="container center">
+      <ul class="social-icons list-inline">
+        <li><a href="https://twitter.com/zegetech" target="_blank"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="https://www.facebook.com/Zege-Technologies-314908491854083/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+        <!-- <li><a href="https://www.facebook.com/zegetech"><i class="fa fa-instagram"></i></a></li> -->
+        <li><a href="https://www.linkedin.com/company/zege-technologies" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+        <!-- <li class="last"><a href="#"><i class="fa fa-google-plus"></i></a></li>                      -->
+      </ul>
+    </div><!--//container-->
+  </div><!--//bottom-bar-->
+</footer><!--//footer-->
+
+<!--Main Javascript -->          
+<script type="text/javascript" src="/assets/plugins/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="/assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
+<script type="text/javascript" src="/assets/plugins/bootstrap-hover-dropdown.min.js"></script>
+<!-- <script type="text/javascript" src="/assets/plugins/back-to-top.js"></script>              -->
+<script type="text/javascript" src="/assets/plugins/jquery-placeholder/jquery.placeholder.js"></script>                                                                  
+<script type="text/javascript" src="/assets/plugins/jquery-match-height/jquery.matchHeight-min.js"></script>
+<script type="text/javascript" src="/assets/plugins/FitVids/jquery.fitvids.js"></script>
+<script type="text/javascript" src="/assets/js/main.js"></script>
+
+<!-- Flexslider -->    
+<script type="text/javascript" src="/assets/plugins/flexslider/jquery.flexslider-min.js"></script> 
+<script type="text/javascript" src="/assets/js/flexslider-custom.js"></script>     
+
+<!-- Form Validation -->
+<!-- <script type="text/javascript" src="/assets/plugins/jquery.validate.min.js"></script>  -->
+<!-- <script type="text/javascript" src="/assets/js/form-validation-custom.js"></script> -->
+
+<!-- Form iOS fix -->
+<script type="text/javascript" src="/assets/plugins/isMobile/isMobile.min.js"></script>
+<script type="text/javascript" src="/assets/js/form-mobile-fix.js"></script>
+
+<!-- Owl Carousel -->
+<script type="text/javascript" src="/assets/plugins/owl-carousel/owl.carousel.js"></script> 
+<script type="text/javascript" src="/assets/js/owl-custom.js"></script> 
+
+<!-- isotope -->
+<script type="text/javascript" src="assets/plugins/imagesloaded.pkgd.min.js"></script> 
+<script type="text/javascript" src="assets/plugins/isotope.pkgd.min.js"></script>    
+<script type="text/javascript" src="assets/js/isotope-custom.js"></script>
+
+
+
+
+</body>
+</html>

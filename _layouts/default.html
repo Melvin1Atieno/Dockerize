@@ -1,0 +1,6 @@
+{% include header.html %}
+{% if page.promo_title or page.promo_intro %} 
+	{% include promo.html %} 
+{% endif %}
+{{ content }}
+{% include footer.html %}
